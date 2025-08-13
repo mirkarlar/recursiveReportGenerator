@@ -1,0 +1,4 @@
+/home/wimjan/src/reportGenerator/valid.json
+/home/wimjan/src/reportGenerator/invalid.txt
+/home/wimjan/src/reportGenerator/nonexistent.json
+/home/wimjan/src/reportGenerator/another_nonexistent.json

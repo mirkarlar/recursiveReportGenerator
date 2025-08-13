@@ -1,0 +1,17 @@
+{
+  "name": "Invalid JSON",
+  "version": 1.0,
+  "description": "An invalid JSON file for testing",
+  "items": [
+    {
+      "id": 1,
+      "value": "first"
+    },
+    {
+      "id": 2,
+      "value": "second"
+    }
+  ],
+  "enabled": true
+  "missing_comma": "this will cause a parse error"
+}

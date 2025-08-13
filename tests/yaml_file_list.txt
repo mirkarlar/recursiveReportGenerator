@@ -1,0 +1,4 @@
+/home/wimjan/src/reportGenerator/valid.yaml
+/home/wimjan/src/reportGenerator/invalid.yaml
+/home/wimjan/src/reportGenerator/nonexistent.yaml
+valid.yaml

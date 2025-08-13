@@ -1,0 +1,16 @@
+{
+  "name": "Test JSON",
+  "version": 1.0,
+  "description": "A valid JSON file for testing",
+  "items": [
+    {
+      "id": 1,
+      "value": "first"
+    },
+    {
+      "id": 2,
+      "value": "second"
+    }
+  ],
+  "enabled": true
+}

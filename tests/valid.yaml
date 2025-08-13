@@ -1,0 +1,28 @@
+# Valid YAML file for testing
+name: Test YAML
+version: 1.0
+description: A valid YAML file for testing
+enabled: true
+items:
+  - id: 1
+    value: first
+  - id: 2
+    value: second
+nested:
+  level1:
+    level2:
+      level3: deep nesting
+      array:
+        - item1
+        - item2
+        - item3
+  sibling:
+    key: value
+numbers:
+  integer: 42
+  float: 3.14
+  scientific: 1.0e+10
+boolean_values:
+  true_value: true
+  false_value: false
+null_value: null

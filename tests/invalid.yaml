@@ -1,0 +1,34 @@
+# Invalid YAML file for testing
+name: Invalid YAML
+version: 1.0
+description: An invalid YAML file for testing
+enabled: true
+
+# Error 1: Missing colon in key-value pair
+missing_colon this will cause a parse error
+
+# Error 2: Inconsistent indentation
+items:
+  - id: 1
+    value: first
+  - id: 2
+  value: second  # This line should be indented more
+
+# Error 3: Invalid character in key
+invalid@key: value
+
+# Error 4: Tab character instead of spaces
+nested:
+	level1: using tab instead of spaces
+
+# Error 5: Improperly formatted list
+bad_list:
+- first item
+- - nested item without proper indentation
+
+# Error 6: Unbalanced quotes
+unbalanced: "This string is not closed
+
+# Error 7: Invalid block mapping
+this:
+is:not:valid:yaml
